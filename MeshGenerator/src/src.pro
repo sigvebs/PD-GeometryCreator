@@ -6,9 +6,10 @@ CONFIG   -= qt
 
 include(../default.pri)
 
-SOURCES += meshgenrator.cpp \
-	mg_functions.cpp
+SOURCES += \
+	mg_functions.cpp \
+    meshgenerator.cpp
 
 HEADERS +=\
-	meshgenrator.h \
-	mg_functions.h
+	mg_functions.h \
+    meshgenerator.h
